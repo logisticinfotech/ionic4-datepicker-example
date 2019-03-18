@@ -1,0 +1,68 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+.li-ionic4-datePicker {
+    .modal-wrapper {
+        height: 75%;
+        max-height: 478px;
+        width: 312px;
+        border-radius: 0px;
+        --ion-color-primary: orange; // This Variable used for the change of colour ion-datepicker only.
+        --ion-color-primary-tint: rgb(214, 153, 153); // This Variable changes the tint colour of background when click button.
+        ion-button {
+            // --ion-color-primary: green; // This Variable used for the change colour of buttons only.
+            // --ion-color-primary-tint: lightgreen; // This Variable changes the tint color of background when click buttons.
+            // --border-radious: 0px; // This Variable changes the border radious of buttons.
+            // button customization css write here...
+        }
+        @media (min-width: 768px) {
+            width: 350px;
+            height: 65%;
+        }
+    }
+}
+
+ion-toggle {
+    .ng-valid[required],
+    .ng-valid.required,
+    .ng-valid:not(form) {
+        border-bottom: none !important;
+        /* green */
+    }
+    .ng-invalid:not(form) {
+        border-bottom: 1px solid #a94442 !important;
+        /* red */
+    }
+    .ng-pristine:not(form) {
+        border-bottom: 1px solid #ccc !important;
+    }
+}
+
+li-ionic4-datepicker {
+    input[_ngcontent-c1] {
+        border-bottom: unset !important;
+    }
+}
+
+.ng-valid[required],
+.ng-valid.required,
+.ng-valid:not(form) {
+    border-bottom: 1px solid #42A948;
+    /* green */
+}
+
+.ng-invalid:not(form) {
+    border-bottom: 1px solid #a94442;
+    /* red */
+}
+
+.ng-pristine:not(form) {
+    border-bottom: 1px solid #ccc;
+}
