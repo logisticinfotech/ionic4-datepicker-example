@@ -14,11 +14,24 @@ ion-item {
     }
 }
 
-ion-icon {
-    position: absolute;
-    top: 12px;
-    right: 0;
+.floatingwithicon {
+    .calicon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .clearButton {
+        right: 37px !important;
+        bottom: 9px !important;
+    }
 }
+
+
+// ion-icon {
+//     position: absolute;
+//     top: 12px;
+//     right: 0;
+// }
 
 :host {
     ion-toggle {

@@ -29,6 +29,13 @@
     }
 }
 
+.floatingwithicon {
+    .clearButton {
+        right: 37px !important;
+        bottom: 11px !important;
+    }
+}
+
 ion-toggle {
     .ng-valid[required],
     .ng-valid.required,
